@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(e1071, cmeans)
+importFrom(mclust, Mclust)
+importFrom(mclust, mclustBIC)
+
