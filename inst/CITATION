@@ -5,7 +5,7 @@ bibentry(
   title    = "A correlation-based fuzzy cluster validity index with secondary options detector",
   author   = c(person("Nathakhun Wiroonsri"),
                     person("Onthada Preedasawakul")),
-  journal  = "xxx",
+  journal  = "xxxx",
   year     = "2023",
   volume   = "xxx",
   number   = "xxx",
