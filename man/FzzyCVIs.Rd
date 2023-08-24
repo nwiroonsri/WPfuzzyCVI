@@ -161,19 +161,5 @@ IDX.list = c("WP", "PBM", "TANG", "XB", "GC2", "KWON2")
 FCVIs = FzzyCVIs(scale(x), cmax = 15, cmin = 2, indexlist = IDX.list, corr = 'pearson',
          method = 'FCM', fzm = 2, iter = 100, nstart = 20, NCstart = TRUE)
 # Plot the computed indexes
-par(mar = c(4, 4, 0.5, 0.5))
-par(mfrow=c(2,3))
-for (i in 1:length(IDX.list)){
-  if(IDX.list[i] == "WPC"){
-  plot(data.frame(FCVIs[i]),ylab = IDX.list[i], xlab = "c",type='b')
-  }
-  # Plot the indexes that the largest value indicates a valid optimal partition.
-  else if(sum(IDX.list[i] == c("WP","WPCI1","WPCI2","PBM","KPBM","CCVP","CCVS")) == 1){
-    plot(data.frame(FCVIs[i]),ylab = IDX.list[i], xlab = "c",type='b')
-    points(data.frame(FCVIs[i])[which.max(data.frame(FCVIs[i])[,2]),1],max(data.frame(FCVIs[i])[,2]),col='red',pch=20)
-  }else { # Plot the indexes that the smallest value indicates a valid optimal partition.
-    plot(data.frame(FCVIs[i]),ylab = IDX.list[i], xlab = "c",type='b')
-    points(data.frame(FCVIs[i])[which.min(data.frame(FCVIs[i])[,2]),1],min(data.frame(FCVIs[i])[,2]),col='red',pch=20)
-  }
-}
+plot.idx(FCVIs)
 }
