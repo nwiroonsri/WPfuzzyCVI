@@ -80,6 +80,11 @@ plot.idx(idx.result=FCVIs)
 ### Plot
 ![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/FzzyCVIs.jpeg)
 
+## References
 
+Wiroonsri, N. and Preedasawakul, O., A correlation-based fuzzy cluster validity index with secondary options detector, arXiv, 2023. 
 
+## License
+
+The NCvalid package as a whole is distributed under [GPL(>=3)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
