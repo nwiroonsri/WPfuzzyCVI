@@ -33,10 +33,25 @@ devtools::install_github("nwiroonsri/WPfuzzyCVIs")
 ```
 
 
+## Example 
+### Using WP.IDX to compute the WP index for a clustering result from 2 to 15
+```r
+library(WPfuzzyCVI)
+
+x = iris[,1:4]
+
+# Computes all indexes of a FCM clustering result for c from 2 to 15
+FCM.WP = WP.IDX(scale(x), cmax = 10, cmin = 2, corr = 'pearson', method = 'FCM', fzm = 2,
+                iter = 100, nstart = 20, NCstart = TRUE)
+#---Plot and compare the indexes---
+plot.idx(idx.result=FCM.WP )
+```
+### Plot
+![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/iris.wp.fcm.jpeg)
 
 
-## Simple Example in Artificial data sets
-### Using FzzyCVIs computes all index in function
+## Example
+### Using FzzyCVIs to compute all the indices in the package for a clustering result from 2 to 15
 ```r
 library(FuzzyDatasets)
 library(WPfuzzyCVI)
@@ -53,9 +68,9 @@ plot.idx(idx.result=FCVIs.all)
 ![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/FzzyCVIs%20all.jpeg)
 
 
-### Using FzzyCVIs computes specific indexes in function
+### Using FzzyCVIs to compute 6 selected indices for a clustering result from 2 to 15
 ```r
-# Computes all indexes of a FCM clustering result for c from 2 to 15
+# Computes 6 indices for a FCM clustering result for c from 2 to 15
 IDX.list = c("WP", "PBM", "TANG", "XB", "GC2", "KWON2")
 FCVIs = FzzyCVIs(scale(x), cmax = 15, cmin = 2, indexlist = "all", corr = 'pearson',
                  method = 'FCM', fzm = 2, iter = 100, nstart = 20, NCstart = TRUE)
@@ -66,20 +81,5 @@ plot.idx(idx.result=FCVIs)
 ![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/FzzyCVIs.jpeg)
 
 
-## Simple Example in realworld iris
-### Using WP.IDX function computes WP index
-```r
-library(WPfuzzyCVI)
-
-x = iris[,1:4]
-
-# Computes all indexes of a FCM clustering result for c from 2 to 15
-FCM.WP = WP.IDX(scale(x), cmax = 10, cmin = 2, corr = 'pearson', method = 'FCM', fzm = 2,
-                iter = 100, nstart = 20, NCstart = TRUE)
-#---Plot and compare the indexes---
-plot.idx(idx.result=FCM.WP )
-```
-### Plot
-![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/iris.wp.fcm.jpeg)
 
 
