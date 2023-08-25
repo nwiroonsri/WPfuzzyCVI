@@ -2,24 +2,24 @@
 \alias{plot.idx}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Plot and compare upto 8 indices computed from the algorithms in the same package.
+Plot the indices in the same package
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Plot and compare upto 8 indices computed from the algorithms in the same package.
 }
 \usage{
 plot.idx(idx.result)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{idx.result}{computed index result in list or data frame from function \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX}
+  \item{idx.result}{A result from one of the algorithms \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX}.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-generate a graph using the output from the  \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX} function provided by the \pkg{WPfuzzyCVI}. If user utilize the \code{FzzyCVIs} function and choose \code{indexlist = "all"}, the graph will display 8 indices, which will include \code{c("WP","XB","KWON","KWON2","TANG","HF","WL",PBM)}. However, if a user options for a specific index list containing more than 8 indexes, the graph will showcase the first 8 indexes selected by the user.
+generate plots of upto 8 cluster validity indices computed from \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX}. When using the isolated index algorithm, all the plots computed by that algorithm will be shown. When using \code{FzzyCVIs} with more than 8 selected indices, the first 8 indices will be plotted. 
 }
 \references{
 N. Wiroonsri and O. Preedasawakul. (2023). A correlation-based fuzzy cluster validity index with secondary options detector.
