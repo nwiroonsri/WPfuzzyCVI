@@ -68,7 +68,7 @@ plot.idx(idx.result=FCVIs.all)
 ![](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/Example/FzzyCVIs%20all.jpeg)
 
 
-### Using FzzyCVIs to compute 6 selected indices for a clustering result from 2 to 15 with the parameter gamma = 7
+### Using FzzyCVIs to compute 6 selected indices for a clustering result from 2 to 15 with the fuzziness parameter gamma = 7
 ```r
 # Computes 6 indices for a FCM clustering result for c from 2 to 15
 IDX.list = c("WP", "PBM", "TANG", "XB", "GC2", "KWON2")
