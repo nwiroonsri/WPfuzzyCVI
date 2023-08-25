@@ -2,7 +2,7 @@
 \alias{plot.idx}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Plot the computed indexes
+Plot and compare upto 8 indices computed from the algorithms in the same package.
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
