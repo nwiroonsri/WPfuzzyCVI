@@ -106,5 +106,5 @@ plot.idx(idx.result=FCVIs)
 
 ## License
 
-The NCvalid package as a whole is distributed under [GPL(>=3)](https://www.gnu.org/licenses/gpl-3.0.en.html).
+The WPfuzzyCVIs package as a whole is distributed under [GPL(>=3)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
