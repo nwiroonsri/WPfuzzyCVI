@@ -1,13 +1,13 @@
-# WPfuzzyCVI
-A correlation-based fuzzy cluster validity index with secondary options detector
+# WPfuzzyCVIs
+Algorithms for computing cluster validity indices including the WP index and plots for comparing and visualizing them.
 
 ## Description
 
-WPfuzzyCVI is a package used for analyzing soft clustering results such as Fuzzy c-means and EM algorithm. 
-It contains a main function [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/WP.IDX.R) that computes WP correlation (WPC), WP, WPCI1 and WPCI2 indexes for a result of either FCM or EM clustering from user specified cmin to cmax.
+WPfuzzyCVIs is a package used for analyzing soft or probabilistic clustering results including fuzzy c-means (FCM) and EM algorithm. 
+It contains the main algorithm  [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R) that computes all the indices listed below from the user specified cmin to cmax. It also includes [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/WP.IDX.R) that computes WP correlation (WPC), WP, WPCI1 and WPCI2 from the recent work (Wiroonsri and Preedasawakul, 2023).
 
-### The package includes the following functions.
-1. [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R): Fuzzy cluster validity indexes used in Wiroonsri and Preedasawakul (2023).
+### The package includes the following algorithms.
+1. [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R): for computing all or part of the indices below.
 2. [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/WP.IDX.R): Wiroonsri and Preedasawakul (WP) index.
 3. [XB.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/KWON.IDX.R): Xie and Beni (XB) index.
 4. [KWON.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/KWON.IDX.R): KWON index
@@ -19,8 +19,8 @@ It contains a main function [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/b
 10. [KPBM.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/KPBM.IDX.R): Modified Kernel form of Pakhira-Bandyopadhyay-Maulik (KPBM) index.
 11. [CCV.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/CCV.IDX.R): Correlation Cluster Validity (CCV) index.
 12. [GC.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/GC.IDX.R): The generalized C index.
-13. [AccClust](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/AccClust.R): Accuracy detection for a clustering result with known classes.
-14. [plot.idx](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/plot.idx.R): xxxx
+13. [AccClust](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/AccClust.R): for computing an accuracy for a clustering result with known classes.
+14. [plot.idx](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/plot.idx.R): for ploting and comparing upto 8 indices computed from the algorithms 1 to 12.
 
 ### The package also includes 17 artificial datasets detail in [FuzzyDatasets](https://github.com/O-PREEDASAWAKUL/FuzzyDatasets.git)
 
