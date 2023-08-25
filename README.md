@@ -22,7 +22,7 @@ It contains the main algorithm  [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzy
 13. [AccClust](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/AccClust.R): for computing an accuracy for a clustering result with known classes.
 14. [plot.idx](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/plot.idx.R): for ploting and comparing upto 8 indices computed from the algorithms 1 to 12.
 
-### The package also includes 17 artificial datasets detail in [FuzzyDatasets](https://github.com/O-PREEDASAWAKUL/FuzzyDatasets.git)
+### The package also includes 17 simulated datasets from [FuzzyDatasets](https://github.com/O-PREEDASAWAKUL/FuzzyDatasets.git)
 
 
 ## Installation
