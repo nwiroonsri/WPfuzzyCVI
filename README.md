@@ -34,13 +34,13 @@ devtools::install_github("nwiroonsri/WPfuzzyCVIs")
 
 
 ## Example 
-### Using WP.IDX to compute the WP index for a clustering result from 2 to 15
+### Using WP.IDX to compute the WP index for a clustering result from 2 to 10
 ```r
 library(WPfuzzyCVI)
 
 x = iris[,1:4]
 
-# Computes all indexes of a FCM clustering result for c from 2 to 15
+# Computes all indexes of a FCM clustering result for c from 2 to 10
 FCM.WP = WP.IDX(scale(x), cmax = 10, cmin = 2, corr = 'pearson', method = 'FCM', fzm = 2,
                 iter = 100, nstart = 20, NCstart = TRUE)
 #---Plot and compare the indexes---
