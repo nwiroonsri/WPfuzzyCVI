@@ -4,7 +4,7 @@ Algorithms for computing cluster validity indices including the WP index and plo
 ## Description
 
 WPfuzzyCVIs is a package used for analyzing soft or probabilistic clustering results including fuzzy c-means (FCM) and EM algorithm. 
-It contains the main algorithm  [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R) that computes all the indices listed below from the user specified cmin to cmax. It also includes [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/WP.IDX.R) that computes WP correlation (WPC), WP, WPCI1 and WPCI2 from the recent work (Wiroonsri and Preedasawakul, 2023). The hard clustering version can be found in https://github.com/nwiroonsri/NCvalid.
+It contains the main algorithm  [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R) that computes all the indices listed below from the user specified cmin to cmax. It also includes [WP.IDX](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/WP.IDX.R) that computes WP correlation (WPC), WP, WPCI1 and WPCI2 from the recent work (Wiroonsri and Preedasawakul, 2023). The version compatible with hard clustering results including Kmeans and hierachical clustering can be found in https://github.com/nwiroonsri/NCvalid.
 
 ### The package includes the following algorithms.
 1. [FzzyCVIs](https://github.com/nwiroonsri/WPfuzzyCVIs/blob/main/R/FzzyCVIS.R): for computing all or part of the indices below.
