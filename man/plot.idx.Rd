@@ -19,10 +19,10 @@ plot.idx(idx.result)
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-generate plots of upto 8 cluster validity indices computed from \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX}. When using the isolated index algorithm, all the plots computed by that algorithm will be shown. When using \code{FzzyCVIs} with more than 8 selected indices, the first 8 indices will be plotted. 
+generate plots of upto 8 cluster validity indices computed from \code{FzzyCVIs, WP.IDX, GC.IDX, CCV.IDX, XB.IDX, WL.IDX, TANG.IDX, PBM.IDX, KWON.IDX, KWON2.IDX, KPBM.IDX or HF.IDX}. When using the isolated index algorithm, all the plots computed by that algorithm will be shown. When using \code{FzzyCVIs} with more than 8 selected indices, the first 8 indices will be plotted.
 }
 \references{
-N. Wiroonsri and O. Preedasawakul. (2023). A correlation-based fuzzy cluster validity index with secondary options detector.
+N. Wiroonsri, O. Preedasawakul, A correlation-based fuzzy cluster validity index with secondary options detector, arXiv:2308.14785, 2023
 }
 \author{
 Nathakhun Wiroonsri and Onthada Preedasawakul
@@ -47,8 +47,7 @@ FCVIs = FzzyCVIs(scale(x), cmax = 15, cmin = 2, indexlist = 'all', corr = 'pears
 plot.idx(idx.result = FCVIs)
 
 # Use WP.IDX function
-FCM.WP = WP.IDX(scale(x), cmax = 15, cmin = 2, corr = 'pearson', method = 'FCM', fzm = 2,
-  iter = 100, nstart = 20, NCstart = TRUE)
+FCM.WP = WP.IDX(scale(x), cmax = 15, cmin = 2, corr = 'pearson', method = 'FCM', fzm = 2, iter = 100, nstart = 20, NCstart = TRUE)
 plot.idx(idx.result = FCM.WP)
 
 # Use XB.IDX function

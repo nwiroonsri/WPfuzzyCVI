@@ -75,7 +75,7 @@ The WPC computes the correlation between the actual distance between a pair of d
 }
 
 \references{
-N. Wiroonsri and O. Preedasawakul. (2023). A correlation-based fuzzy cluster validity index with secondary options detector. \cr\cr
+N. Wiroonsri, O. Preedasawakul, A correlation-based fuzzy cluster validity index with secondary options detector, arXiv:2308.14785, 2023 \cr\cr
 
 X. Xie and G. Beni, “A validity measure for fuzzy clustering,” IEEE
 Transactions on Pattern Analysis and Machine Intelligence, vol. 13, no. 8,

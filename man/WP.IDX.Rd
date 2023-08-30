@@ -56,7 +56,7 @@ The largest value of \code{WP(c)} indicates a valid optimal partition.
   \item{WPCI2}{the WPCI2 index.}
 }
 \references{
-xxx
+N. Wiroonsri, O. Preedasawakul, A correlation-based fuzzy cluster validity index with secondary options detector, arXiv:2308.14785, 2023
 }
 \author{
 Nathakhun Wiroonsri and Onthada Preedasawakul

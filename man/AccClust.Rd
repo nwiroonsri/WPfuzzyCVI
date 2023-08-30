@@ -36,7 +36,7 @@ AccClust(x, label.names = "label", algorithm = "FCM", fzm = 2,
   \item{EM}{Accuracy score from \code{0} to \code{1} of the EM result}
 }
 \references{
-xxx
+N. Wiroonsri, O. Preedasawakul, A correlation-based fuzzy cluster validity index with secondary options detector, arXiv:2308.14785, 2023
 }
 \author{
 Nathakhun Wiroonsri and Onthada Preedasawakul
