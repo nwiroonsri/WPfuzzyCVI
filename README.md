@@ -82,7 +82,7 @@ plot.idx(idx.result=FCVIs)
 
 ## References
 
-1. N. Wiroonsri and O. Preedasawakul, “A correlation-based fuzzy cluster validity index with secondary options detector”, arXiv:2308.14785, 2023. 
+1. N. Wiroonsri and O. Preedasawakul, “A correlation-based fuzzy cluster validity index with secondary options detector”, arXiv:2308.14785, 2023. https://arxiv.org/abs/2308.14785
 
 2. X. Xie and G. Beni, “A validity measure for fuzzy clustering,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 13, no. 8, pp. 841–847, 1991.
 
