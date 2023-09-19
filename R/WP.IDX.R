@@ -33,7 +33,7 @@ WP.IDX <- function(x, cmax, cmin = 2, corr = 'pearson',
           for (nr in 1:nstart){
             minFCM.model = cmeans(x,cmax+1,iter,verbose=FALSE,method="cmeans",m=fzm)
             if (minFCM.model$withinerror < wd){
-              wd = mincm.out2$withinerror
+              wd = minFCM.model$withinerror
               minFCM.model2 =minFCM.model
             }
           }
